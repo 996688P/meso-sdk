@@ -1,0 +1,12 @@
+{
+  "name": "meso-sdk",
+  "version": "0.1.0",
+  "description": "Read-only client and unsigned transaction builder for MESO PROTOCOL on BNB Chain, plus an MCP server.",
+  "type": "module",
+  "main": "meso.js",
+  "bin": { "meso-mcp": "./mcp-server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ethers": "^6.13.0" },
+  "license": "MIT",
+  "files": ["meso.js", "mcp-server.js", "README.md"]
+}
